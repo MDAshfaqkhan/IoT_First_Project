@@ -27,4 +27,4 @@ while True:
     else:
         st.warning("No data received yet. Start the MQTT publisher.")
 
-    st.experimental_rerun()
+    st.rerun()
